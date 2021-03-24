@@ -1,0 +1,77 @@
+.arrow {
+  border: solid;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+  color: #71b6df
+}
+
+.right {
+  transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+}
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+}
+
+.parrafo {
+  color: lightgrey;
+}
+
+.avatar {
+  border-radius: 50%;
+}
+
+.rewardingContent {
+margin-top:10px;
+}
+
+.rewardingImg {
+width: 75%;
+margin: 0 auto;
+display: block;
+}
+
+.sectionMorada{
+	margin-top: 4%;
+    padding-top: 5px;
+    padding-left: 32px;
+	background-color: #592094;
+}
+
+.sectionUse{
+	margin-top: 4%;
+    padding-top: 5px;
+    padding-left: 32px;
+	background-color: #fafafa;
+}
+.sectionRespect{
+	padding: 32px;
+    color: white;
+    margin-top: 4vw;
+    text-align: center;
+}
+
+.read-more::after {
+    color: inherit;
+    content: "→";
+    display: inline-block;
+    font-style: normal;
+    font-weight: inherit;
+    padding-left: 3px;
+    transition: transform 0.15s ease-in-out 0s, -webkit-transform 0.15s ease-in-out 0s;
+}
+
+.read-more:hover::after{
+	-webkit-transform:translateX(3px);
+	transform:translateX(3px)
+}
+
+
+.imagen{
+	background: url(../images/desktop.jpg);
+}
+
+
